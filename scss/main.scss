@@ -15,25 +15,23 @@
     width: 500px;
     height: 300px;
  }
- @keyframes animaton {
-     0% {background-image: url(../image/photo_four.jpg)}
-     25% {background-image: url(../image/photo_two.jpg)}
-     75% {background-image: url(../image/photo_three.jpg)}
-     100% {background-image: url(../image/photo_two.jpg)}
- }
+ 
  
 .box-two {
     z-index: 5;
-    margin-top: -30px;  
+    margin-top: -30px; 
+ 
+
+
 }
 .box-one {
-    z-index: 4;
+    z-index: 1;
     margin-right: -100px;
     margin-top: -10px;
 
 }
 .box-three {
-    z-index: 3;
+    z-index: 1;
     margin-left: -100px;
     margin-top: -10px;
 
