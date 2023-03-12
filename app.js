@@ -1,36 +1,29 @@
-/*function back() {
-    let red = Math.round(Math.random() * 1000) % 255;
-    let bule = Math.round(Math.random() * 1000) % 255;
-    let green = Math.round(Math.random() * 1000) % 255;
-
-    document.getElementById("body").style.backgroundColor = "rgb(" + red + "," + bule + "," + green + ")"
-
+var win;
+function openwin() {
+    win = window.open("", "", "width=100, height=50");
 
 }
-window.setInterval(back, 1000)
-
-*/
-
-// object 
-
-
-let obj = {};
-obj["name"] = "Masoumeh";
-obj["age"] = 22;
-obj["university"] = "AFG";
-
-let obj2 = obj;
-
-
-if (obj === obj2) {
-    console.log("Hello form the js code")
+function closewin() {
+    win.close()
 }
 
+function rightop() {
+    win.moveTo(500, 0);
+    win.focus()
 
+}
+function leftop() {
+    win.moveTo(-500, 0);
+    win.focus()
 
+}
+function topp() {
+    win.moveTo(0, -100);
+    win.focus()
 
+}
+function dow() {
+    win.moveTo(0, 400);
+    win.focus()
 
-
-
-
-
+}

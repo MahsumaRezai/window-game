@@ -3,22 +3,19 @@
   padding: 0%;
   margin: 0%; }
 
-.conent {
+body {
+  background: lightblue; }
+
+.button {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  padding-top: 300px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  padding-top: 200px; }
+  gap: 10px; }
 
-.cricle {
-  background: red;
-  width: 200px;
-  height: 200px;
-  border-radius: 100%; }
-
-.cricle--black {
-  background: black;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%; }
+input {
+  width: 100px;
+  height: 20px;
+  background: gold;
+  border: none; }
